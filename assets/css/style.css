@@ -25,7 +25,7 @@ body {
     color: #6fa935;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,13 +33,14 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    vertical-align:bottom;
 }
 
 a {
@@ -87,7 +88,7 @@ p {
     background-color: #2589bd;
 }
 
-/* combined formatting for right column elements*/
+/* combined formatting for aside elements*/
 .benefit-lead,
 .benefit-brand, 
 .benfit-cost {
@@ -95,7 +96,7 @@ p {
     color: #ffffff;
 }
 
-/* combined formatting for right column elements (h3) */
+/* combined formatting for aside headings (h3) */
 .benefit-lead h3,
 .benefit-brand, h3,
 .benefit-cost h3 {
@@ -103,7 +104,7 @@ p {
     text-align: center;
 }
 
-/* combined formatting for images in right column element*/
+/* combined formatting for aside images*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img{
